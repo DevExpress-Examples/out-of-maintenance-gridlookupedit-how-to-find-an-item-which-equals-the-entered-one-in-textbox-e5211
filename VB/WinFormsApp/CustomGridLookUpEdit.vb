@@ -74,7 +74,7 @@ Namespace WinFormsApp
         Public Shared Sub RegisterCustomEdit()
             EditorRegistrationInfo.Default.Editors.Add(New EditorClassInfo(CustomEditName, _
                 GetType(CustomGridLookUpEdit), GetType(RepositoryItemCustomridLookUpEdit), _
-                GetType(GridLookUpEditBaseViewInfo), New ButtonEditPainter, True, New Bitmap(0, 0)))
+                GetType(GridLookUpEditBaseViewInfo), New ButtonEditPainter, True))
 
         End Sub
 
